@@ -1,0 +1,4 @@
+#!/bin/bash
+REFRESH_PC_DRIVE > /dev/null 2>&1
+/root/CLEM_Files/readClemFile_UpdateCRC41_NVM_64K /root/PROGRAM/CLemFile/"$@"
+echo "ACK"
